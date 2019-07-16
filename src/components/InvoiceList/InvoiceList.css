@@ -1,0 +1,53 @@
+.invoice-editor {
+	margin: 0 10%;
+	display: flex;
+	flex-direction: column;
+	justify-items: stretch;
+	
+}
+button.add-item {
+	margin: 1% 0;
+	padding: 10px;
+	background-color: #483d8b;
+	color: #eeeeee;
+	border-radius:25px;
+	font-size: large;
+	width:50%;
+	margin-left:50%;
+}
+
+.invoice-header {
+	display: flex;
+	background:#57a0be;
+	padding:10px;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-top: 0px;
+	padding-bottom: 1%;
+	font-size: large;
+	border-bottom: #CCC 1px solid;
+}
+
+.invoice-header div{
+	align-self: center;
+}
+
+
+
+.invoice-summary {
+	display: flex;
+	justify-content: flex-end;
+	font-size: large;
+}
+.invoice-summary div{
+	font-size: large;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-end;	
+}
+
+.invoice-summary .summary-headers{
+	margin-right: 25px;
+}
+
